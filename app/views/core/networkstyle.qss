@@ -1,0 +1,84 @@
+QDMNetworkContentWidget {
+    background: transparent;
+}
+
+QDMNetworkContentWidget QLabel {
+    color: #e0e0e0;
+}
+
+QGraphicsView {
+    selection-background-color: rgb(214, 206, 204);
+}
+
+QMainWindow {
+    background-color: rgb(95,95,95);
+    border-color: black;
+}
+
+QMenuBar {
+    background: rgb(75,75,75);
+    border-color: black;
+}
+
+QMenuBar::item {
+    spacing: 3px;
+    padding: 1px 4px;
+    background: transparent;
+    border-radius: 4px;
+    color: white;
+}
+
+QMenuBar::item:selected {
+    background: #a8a8a8;
+}
+
+QMenu {
+    background-color: rgb(95,95,95);
+    border: 1px solid black
+}
+
+QMenu::item {
+    background-color: transparent;
+    color: white;
+}
+
+QMenu::item:selected {
+    background-color: rgb(0,85,100);
+}
+
+QToolBar {
+    background: rgb(70,85,85);
+    border:1px solid rgb(55,55,55)
+}
+
+QToolButton {
+    color: white
+}
+
+QSplitter::handle {
+    background: rgb(70,85,85);
+}
+
+QSplitter::handle:horizontal {
+    image: url(:/icons/handlev.png);
+}
+
+QSplitter::handle:vertical {
+    image: url(:/icons/handleh.png);
+}
+
+QTabBar::tab {
+    border:0.5px solid black;
+    border-radius: 2px;
+    background: gray;
+    color: dark;
+    padding: 10px;
+    text-color : blue;
+    position: absolute;
+}
+
+QTabBar::tab:selected {
+    border:0.5px solid orange;
+}
+
+
